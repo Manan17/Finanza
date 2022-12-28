@@ -193,6 +193,10 @@ body {
   color: #fff;
 }
 
+.title-text {
+  font-weight: bold;
+}
+
 .countdown-container > div {
   margin: 0 2rem;
   text-align: center;
