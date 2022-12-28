@@ -218,12 +218,14 @@ body {
     max-width: 150px;
   }
   .medium-image {
-    width: 120px;
-    height: 100px;
+    width: 130px;
+    height: 90px;
   }
   .sponsors-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
 }
