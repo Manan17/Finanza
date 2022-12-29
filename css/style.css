@@ -232,4 +232,13 @@ body {
     align-items: center;
     justify-content: center;
   }
+  .navbar-brand {
+    margin-left: 20%;
+  }
+}
+
+@media (max-width: 300px) {
+  .navbar-brand {
+    margin-left: 0;
+  }
 }
