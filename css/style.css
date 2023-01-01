@@ -296,6 +296,10 @@ body {
   .top-container {
     height: 70vh;
   }
+  .hod-text {
+    font-size: 25px;
+    font-weight: bolder;
+  }
 }
 
 @media (max-width: 300px) {
