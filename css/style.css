@@ -217,6 +217,10 @@ body {
   width: fit-content !important;
 }
 
+.logo {
+  color: white;
+}
+
 .top-text {
   color: #ffd700;
   font-family: "Playfair serif";
@@ -234,6 +238,7 @@ body {
 .profile-img {
   width: 150px;
   height: 150px;
+  object-fit: cover;
 }
 
 .countdown-main {
