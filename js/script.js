@@ -2,7 +2,7 @@ let daysItem = document.querySelector("#days");
 let hoursItem = document.querySelector("#hours");
 let minItem = document.querySelector("#min");
 let secItem = document.querySelector("#sec");
-
+document.getElementById("myVideo").play();
 let countDown = () => {
   let futureDate = new Date("9 Feb 2023");
   let currentDate = new Date();
