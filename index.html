@@ -57,7 +57,8 @@
     <section>
         <div class="top-container">
             <div>
-                <div class="back-img"></div>
+                <!-- <div class="back-img"></div> -->
+                <video src="img/bgVideo.mp4" autoPlay loop muted id="myVideo"></video>
                 <img class="top-image" src="img/finanza-logo.png" />
                 <h1 class="top-text">9<sup>th</sup> and 10<sup>th</sup> February</h1>
             </div>
@@ -111,7 +112,9 @@
                 <span class="small-text">Sec</span>
             </div>
         </div>
-        <button class="btn btn-warning btn-lg btn-block mt-3 mt-4 register-btn" type="button">Register</button>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd51HT1yn-zfD89bGVUrN2kptMhrliZbStPR45Hw01cqp3lPQ/viewform?usp=sf_link"
+            target="_blank" class="register_button"><button
+                class="btn btn-warning btn-lg btn-block mt-3 mt-4 register-btn" type="button">Register</button></a>
     </div>
     <!-- about section starts -->
     <section id="events" class="about section-padding">
@@ -368,7 +371,9 @@
             </div>
             <div class="row m-0">
                 <div class="col-md-12 p-0 pt-4 pb-4">
-                    <form action="#" class="bg-light p-4 m-auto">
+                    <form action="https://formsubmit.co/shahmanan170602@gmail.com" method="POST"
+                        class="bg-light p-4 m-auto">
+                        <input type="hidden" name="_subject" value="New Message" />
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="mb-3">
@@ -377,15 +382,17 @@
                             </div>
                             <div class="col-md-12">
                                 <div class="mb-3">
-                                    <input class="form-control" placeholder="Email" required="" type="email">
+                                    <input class="form-control" name="email" placeholder="Email" required=""
+                                        type="email">
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="mb-3">
-                                    <textarea class="form-control" placeholder="Message" required=""
+                                    <textarea class="form-control" placeholder="Message" required="" name="message"
                                         rows="3"></textarea>
                                 </div>
-                            </div><button class="btn btn-warning btn-lg btn-block mt-3" type="button">Send Now</button>
+                            </div>
+                            <button class="btn btn-warning btn-lg btn-block mt-3" type="submit">Send Now</button>
                         </div>
                     </form>
                 </div>
