@@ -166,6 +166,12 @@ body {
   }
 }
 @media only screen and (max-width: 767px) {
+  .dept-name {
+    margin-top: 20px;
+  }
+  .mg > div > div > h5 {
+    margin-top: 15px;
+  }
   .navbar-nav {
     text-align: center;
   }
@@ -222,7 +228,7 @@ body {
   align-items: center;
 }
 
-.top-container > div {
+.top-container-div {
   margin-top: 150px;
 }
 
@@ -353,7 +359,7 @@ body {
   .navbar .container-xl {
     margin-left: 0;
   }
-  .top-container > div {
+  .top-container-div {
     margin-top: 220px;
   }
 }
